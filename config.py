@@ -44,7 +44,7 @@ bot_token = "6762159565:AAEGwZNHvZ-5tis700lCGT6bspJnbmw5wwk" #botfatherdan alabi
 client = TelegramClient("Samil", api_id, api_hash).start(bot_token=bot_token)
 
 USERNAME = "exelansetiket_bot" #botunuzun kullanıcı adı
-log_qrup = -1001915718534 #log qrupunuzun idsi
+log_qrup = -1002063774987 #log qrupunuzun idsi
 startmesaj = "💌 arkadaşlarınızı nasıl etiketlemek istersiniz ...\n📚 ben gruplarınız için exelans tarafından özel geliştirilen bir botum" #start mesajınız
 komutlar = "🇦🇿 Bütün etiketler ;\n\n» /utag   <  mesaj  >\n   - üyeleri 5'li etiketler .\n\n» /tag   <  mesaj  >\n   - üyeleri tek tek etiketler .\n\n» /atag   <  mesaj  >\n   - Adminleri etiketler .\n\n» /etag   <  mesaj  >\n   - üyeleri emoji ile etiketler .\n\n» /stag   <  mesaj  >\n   - üyeleri güzel söz ile etiketler .\n\n» /cancel = >\n   - etiketleme işlemi durdurulur ." #komutların olduğu mesaj
 qrupstart = "• şuan aktif çalışmaktayım  . . .\n\n• üyeleri etiketlemek için grubunuza ekleyin . . ." #aktif olduğunda gruba gelen mesaj
