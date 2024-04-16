@@ -39,16 +39,16 @@ import random
 # 
 api_id = "21991912" #my.telegram.org/apps adresinden alabilirsiniz 
 api_hash = "727bef2b6f9dac556b641f3d93a21f46" #my.telegram.org/apps adresinden alabilirsiniz
-bot_token = "6762159565:AAEGwZNHvZ-5tis700lCGT6bspJnbmw5wwk" #botfatherdan alabilirsiniz
+bot_token = "7062654015:AAF-lbcV4a8qEApUpD-D3a0CD8QCpEKZqQk" #botfatherdan alabilirsiniz
 
 client = TelegramClient("Samil", api_id, api_hash).start(bot_token=bot_token)
 
 USERNAME = "exelansetiket_bot" #botunuzun kullanıcı adı
-log_qrup = -1002063774987 #log qrupunuzun idsi
+log_qrup = -1002125242122 #log qrupunuzun idsi
 startmesaj = "💌 arkadaşlarınızı nasıl etiketlemek istersiniz ...\n📚 ben gruplarınız için exelans tarafından özel geliştirilen bir botum" #start mesajınız
 komutlar = "🇦🇿 Bütün etiketler ;\n\n» /utag   <  mesaj  >\n   - üyeleri 5'li etiketler .\n\n» /tag   <  mesaj  >\n   - üyeleri tek tek etiketler .\n\n» /atag   <  mesaj  >\n   - Adminleri etiketler .\n\n» /etag   <  mesaj  >\n   - üyeleri emoji ile etiketler .\n\n» /stag   <  mesaj  >\n   - üyeleri güzel söz ile etiketler .\n\n» /cancel = >\n   - etiketleme işlemi durdurulur ." #komutların olduğu mesaj
 qrupstart = "• şuan aktif çalışmaktayım  . . .\n\n• üyeleri etiketlemek için grubunuza ekleyin . . ." #aktif olduğunda gruba gelen mesaj
-support = "https://t.me/ekselansmalikane" #destek qrupunuzun kullanıcı adı
+support = "https://t.me/diyarbakirsohbet2121" #destek qrupunuzun kullanıcı adı
 sahib = "Dalton3421" #sahibinizin kullanıcı adı
 noadmin = "➻ Üzgünüm Ama Yönetici Değilsiniz ." #yönetici olmayanlar için mesaj
 
